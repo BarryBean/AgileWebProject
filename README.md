@@ -2,6 +2,9 @@
 XJTU-AgileWebDevelopment 
 
 # Work1
+## 实现
+int会超出边界，所以使用double做返回值或者取模1e9+7，写了两个函数
+## 要求
 实现 fibonacci 数列，要求(以Java为例)如下
 
 - 不要提交依赖包等文件
