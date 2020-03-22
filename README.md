@@ -33,3 +33,26 @@ int会超出边界，所以使用double做返回值或者取模1e9+7，写了两
 - 对子和俩对子，有对子比较对子，没有就比较单牌；
 - 高牌和同花，从大到小比较单牌。
 
+# Work3
+
+## 要求
+
+构建一个Restful API，能够完成Todo list的以下功能。
+
+- 返回所有Todo任务
+- 创建一个新的Todo任务
+- 返回一个指定ID的Todo任务
+- 删除一个Todo任务
+
+## 实现
+
+SpringBoot实现，数据ORM为MyBatis+Druid+MySQL，使用MyBatis逆向程序生成。封装了一个消息类，在更新、提交、删除时，返回对应成功或失败的消息信息。
+
+实现了以下功能。
+
+```java
+GET /tasks/
+POST /tasks/
+GET /tasks/{id}
+DELETE /tasks/{id}
+```
