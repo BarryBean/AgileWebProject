@@ -56,3 +56,22 @@ POST /tasks/
 GET /tasks/{id}
 DELETE /tasks/{id}
 ```
+
+# Work4
+
+## 要求
+
+用react实现一个Todo List
+
+- 渲染一个todo List
+- 可以添加新的 todo 事项
+- 可以区分已完成和未完成事项
+- 可以将未完成的事项标记为已完成"
+
+## 实现
+
+1. TodoList整体作为一个大组件；
+2. 列表中的每个列表项ListItem作为一个组件；
+3. 任务的添加框Dialog作为一组件。
+4. 每个任务拥有id，name和status。
+
