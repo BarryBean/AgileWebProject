@@ -75,3 +75,10 @@ DELETE /tasks/{id}
 3. 任务的添加框Dialog作为一组件。
 4. 每个任务拥有id，name和status。
 
+# Work5
+
+完成TodoList自动化测试
+
+- 渲染所有待办事项
+- 可以添加新的待办事项
+- 可以删除事项
